@@ -1,0 +1,98 @@
+/* h1 {
+    text-align: left;
+    border: 2px dotted blueviolet;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.wrapper a:hover {
+    background: rgb(0, 183, 255);
+}
+
+.wrapper {
+    border: 2px dotted hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6), inset 0 0 25px -1px rgba(0, 0, 0, 0.6);
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(132, 206, 235, 0.4);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wrapper p1 {
+    border: 1;
+    height: 100px;
+    background-color:beige;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6), inset 0 0 25px -1px rgba(0, 0, 0, 0.6);
+}
+
+.menu {
+    border: 2px dotted hidden; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6), inset 0 0 25px -1px rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(132, 206, 235, 0.4);
+    text-align: center;
+}
+
+.tasks {
+    border: 1px solid black hidden;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.tasks a {
+    border: 1px solid black hidden;
+    text-decoration: none;
+    color: blue;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+}
+
+.image {
+    border-radius: 100px;
+}
+
+.menu a {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(123, 139, 185);
+    color: yellow;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6), inset 0 0 25px -1px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    text-shadow: 0 1px 1px; 
+}
+
+.menu a:hover {
+    background: grey;
+}
+
+.card {
+    border: 2px dotted hidden;
+    border-radius: 20px;
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+    font-family: monospace;
+    background: url("../images/back.jpg");
+    /* background-color: #F5F5DC; */
+    margin-left: auto;
+    margin-right: auto;
+}
